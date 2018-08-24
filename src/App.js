@@ -5,7 +5,7 @@ import AddForm from './components/AddForm.js';
 import About from './components/About.js';
 import NotFound from './components/NotFound.js';
 import EditForm from './components/EditForm.js';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import { Provider } from './context.js'; 
