@@ -53,7 +53,7 @@ class AddForm extends Component {
       return;
     }
     const res = await axios.post(
-      "http://jsonplaceholder.typicode.com/users",
+      "//jsonplaceholder.typicode.com/users",
       newContact
     );
     dispatch({
